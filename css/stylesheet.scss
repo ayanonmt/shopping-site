@@ -6,7 +6,7 @@ $subColor2: #e2ddd4;
 $ja_font : "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif;
 
 html {
-  font-size: 62.5%;
+  font-size:62.5%;
   background-color: $baseColor;
 }
 
@@ -139,19 +139,19 @@ div {
             }
             
             @media (min-width: 415px) {
-                width: 32.9%;
+                width: 32.0%;
             }
             
             .inner {
-                padding: 12px;
-
+                padding: 5%;
+         
     
             p {
-                @include fontsize(10);
+                @include fontsize(14);
                 margin-bottom: 3px;
                 
                 span {
-                    @include fontsize(15);
+                    @include fontsize(19);
                 }
             }
             }
@@ -177,20 +177,20 @@ div {
                 padding: 15px;
             h2 {
                 color: $subColor;
-                @include fontsize(15);
+                @include fontsize(19);
                 font-weight: bold;
                 margin-bottom: 15px;
             }
             
             h3 {
                 color: $subColor;
-                @include fontsize(10);
+                @include fontsize(14);
                 font-weight: bold;
                 margin: 5px 0;
             }
             
             p {
-                @include fontsize(10);
+                @include fontsize(14);
                 margin: 5px 0 10px;
             }
         }
@@ -277,7 +277,7 @@ color:#7fbfff;
 
             p{
                 display: inline;
-                @include fontsize(11);
+                @include fontsize(15);
                 font-weight: bold;
                 
             }
@@ -334,7 +334,7 @@ color:#7fbfff;
             
                       background-color: white;
                   
-                      @include fontsize(11);
+                      @include fontsize(15);
                       padding: 17px 10px;
                       margin-bottom: 1px;
                       color: black;
@@ -389,7 +389,7 @@ color:#7fbfff;
             padding: 10px;
             padding-left: 5px;
             p {
-                @include fontsize(10);
+                @include fontsize(14);
             }
         }
     }
@@ -404,8 +404,11 @@ color:#7fbfff;
         
         .inner {
             padding: 10px;
-            padding-bottom: 20px;
-            @include fontsize(10);
+            padding-bottom: 2rem;
+            @include fontsize(14);
+            p {
+                margin-bottom: 1.7rem;
+            }
             .more {
                 display: block;
                 margin: 0px auto;
@@ -440,7 +443,7 @@ footer .container {
     
     .footer_box {
         width: 50%;
-        margin: 35px auto 150px;
+        margin: 35px auto 100px;
         
         @media (max-width: 415px) {
             width: 95%;
@@ -453,7 +456,7 @@ footer .container {
             li {
                 display: inline-block;
                 margin-bottom: 0;
-                @include fontsize(10);
+                @include fontsize(14);
             }
             a {
                 text-decoration: none;
@@ -462,7 +465,7 @@ footer .container {
         }
         
         p{
-            @include fontsize(8);
+            @include fontsize(12);
             color: #b0b0b0;
             text-align: center;
         }
@@ -481,7 +484,7 @@ footer .container {
     margin-bottom: 8px;
     .pan_font {
         list-style: none;
-        @include fontsize(7);
+        @include fontsize(11);
         margin-bottom: 0; 
         li {
             display: inline;
@@ -510,7 +513,7 @@ footer .container {
         text-align: center;
         color: white;
         font-weight: bold;
-        @include fontsize(15);
+        @include fontsize(19);
         margin-bottom: 0;
         
         @media (max-width: 415px) {
@@ -538,13 +541,13 @@ footer .container {
     .inner {
             
             h2 {
-                @include fontsize(15);
+                @include fontsize(19);
                 font-weight: bold;
                 letter-spacing:0.3em;
                 margin-bottom: 1rem;
             }
             p {
-                @include fontsize(9);
+                @include fontsize(13);
                 color: #b0b0b0;
                 margin-bottom: 2rem;
             }
@@ -556,7 +559,7 @@ footer .container {
                 justify-content: space-between;
                 height: 50px;
                 h2 {
-                     @include fontsize(12);
+                     @include fontsize(16);
                 }
             }
         }
@@ -619,7 +622,7 @@ footer .container {
             }
             
             table {
-                @include fontsize(10);
+                @include fontsize(14);
                 color: $subColor;
                 width: 100%;
                 td {
@@ -712,12 +715,12 @@ footer .container {
                 td {
                     border-bottom: 0;
                     padding: 15px 0;
-                    @include fontsize(10);
+                    @include fontsize(14);
                     color: red;
                     font-style: italic;
                     
                     #red {
-                        @include fontsize(20);
+                        @include fontsize(24);
                     }
                     #taxin {
                         color: black;
@@ -767,23 +770,23 @@ footer .container {
         #ex_outer {
             padding-top: 30px;
             h3 {
-                @include fontsize(15);
+                @include fontsize(19);
                 color: $subColor;
                 font-weight: bold;
                 padding-bottom: 18px;
                 border-bottom: 1px solid black;
             }
             h4 {
-                @include fontsize(15);
+                @include fontsize(19);
                 color: $subColor;
                 font-weight: bold;
             }
             p {
-                @include fontsize(12);
+                @include fontsize(16);
                 color: black;
             }
             table {
-                @include fontsize(10);
+                @include fontsize(14);
                 color: $subColor;
                 width: 100%;
                 td {

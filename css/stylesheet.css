@@ -82,16 +82,16 @@ div .flex_wrap {
       color: black; }
     @media (min-width: 415px) {
       div .flex_wrap .item_container {
-        width: 32.9%; } }
+        width: 32.0%; } }
     div .flex_wrap .item_container .inner {
-      padding: 12px; }
+      padding: 5%; }
       div .flex_wrap .item_container .inner p {
-        font-size: 10px;
-        font-size: 1rem;
+        font-size: 14px;
+        font-size: 1.4rem;
         margin-bottom: 3px; }
         div .flex_wrap .item_container .inner p span {
-          font-size: 15px;
-          font-size: 1.5rem; }
+          font-size: 19px;
+          font-size: 1.9rem; }
   div .flex_wrap .box {
     background-color: white;
     margin-bottom: 10px;
@@ -108,19 +108,19 @@ div .flex_wrap {
       padding: 15px; }
       div .flex_wrap .box .inner_box h2 {
         color: #887f69;
-        font-size: 15px;
-        font-size: 1.5rem;
+        font-size: 19px;
+        font-size: 1.9rem;
         font-weight: bold;
         margin-bottom: 15px; }
       div .flex_wrap .box .inner_box h3 {
         color: #887f69;
-        font-size: 10px;
-        font-size: 1rem;
+        font-size: 14px;
+        font-size: 1.4rem;
         font-weight: bold;
         margin: 5px 0; }
       div .flex_wrap .box .inner_box p {
-        font-size: 10px;
-        font-size: 1rem;
+        font-size: 14px;
+        font-size: 1.4rem;
         margin: 5px 0 10px; }
 
 #sidebar .serch {
@@ -173,8 +173,8 @@ div .flex_wrap {
       padding: 12px 10px; }
       #sidebar .page_link a .link_inner p {
         display: inline;
-        font-size: 11px;
-        font-size: 1.1rem;
+        font-size: 15px;
+        font-size: 1.5rem;
         font-weight: bold; }
       #sidebar .page_link a .link_inner img {
         display: block;
@@ -210,8 +210,8 @@ div .flex_wrap {
         display: block;
         text-decoration: none;
         background-color: white;
-        font-size: 11px;
-        font-size: 1.1rem;
+        font-size: 15px;
+        font-size: 1.5rem;
         padding: 17px 10px;
         margin-bottom: 1px;
         color: black; }
@@ -249,8 +249,8 @@ div .flex_wrap {
     padding: 10px;
     padding-left: 5px; }
     #sidebar .side_p_box_sp .inner2 p {
-      font-size: 10px;
-      font-size: 1rem; }
+      font-size: 14px;
+      font-size: 1.4rem; }
 #sidebar .side_p_box {
   background-color: white;
   margin-bottom: 10px; }
@@ -259,9 +259,11 @@ div .flex_wrap {
       display: none; } }
   #sidebar .side_p_box .inner {
     padding: 10px;
-    padding-bottom: 20px;
-    font-size: 10px;
-    font-size: 1rem; }
+    padding-bottom: 2rem;
+    font-size: 14px;
+    font-size: 1.4rem; }
+    #sidebar .side_p_box .inner p {
+      margin-bottom: 1.7rem; }
     #sidebar .side_p_box .inner .more {
       display: block;
       margin: 0px auto; }
@@ -278,7 +280,7 @@ div .flex_wrap {
 
 footer .container .footer_box {
   width: 50%;
-  margin: 35px auto 150px; }
+  margin: 35px auto 100px; }
   @media (max-width: 415px) {
     footer .container .footer_box {
       width: 95%; } }
@@ -288,14 +290,14 @@ footer .container .footer_box {
     footer .container .footer_box ul li {
       display: inline-block;
       margin-bottom: 0;
-      font-size: 10px;
-      font-size: 1rem; }
+      font-size: 14px;
+      font-size: 1.4rem; }
     footer .container .footer_box ul a {
       text-decoration: none;
       color: black; }
   footer .container .footer_box p {
-    font-size: 8px;
-    font-size: 0.8rem;
+    font-size: 12px;
+    font-size: 1.2rem;
     color: #b0b0b0;
     text-align: center; }
 
@@ -305,8 +307,8 @@ footer .container .footer_box {
   margin-bottom: 8px; }
   #pan .pan_font {
     list-style: none;
-    font-size: 7px;
-    font-size: 0.7rem;
+    font-size: 11px;
+    font-size: 1.1rem;
     margin-bottom: 0; }
     #pan .pan_font li {
       display: inline;
@@ -328,8 +330,8 @@ footer .container .footer_box {
     text-align: center;
     color: white;
     font-weight: bold;
-    font-size: 15px;
-    font-size: 1.5rem;
+    font-size: 19px;
+    font-size: 1.9rem;
     margin-bottom: 0; }
     @media (max-width: 415px) {
       #back_next p {
@@ -344,14 +346,14 @@ footer .container .footer_box {
     .products_outer {
       padding: 60px; } }
   .products_outer .inner h2 {
-    font-size: 15px;
-    font-size: 1.5rem;
+    font-size: 19px;
+    font-size: 1.9rem;
     font-weight: bold;
     letter-spacing: 0.3em;
     margin-bottom: 1rem; }
   .products_outer .inner p {
-    font-size: 9px;
-    font-size: 0.9rem;
+    font-size: 13px;
+    font-size: 1.3rem;
     color: #b0b0b0;
     margin-bottom: 2rem; }
   @media (min-width: 415px) {
@@ -360,8 +362,8 @@ footer .container .footer_box {
       justify-content: space-between;
       height: 50px; }
       .products_outer .inner #p_name h2 {
-        font-size: 12px;
-        font-size: 1.2rem; } }
+        font-size: 16px;
+        font-size: 1.6rem; } }
   .products_outer .inner #image_box {
     border-top: 1px solid #e2ddd4;
     border-bottom: 1px solid #e2ddd4;
@@ -395,8 +397,8 @@ footer .container .footer_box {
     .products_outer .inner #color_box p {
       margin-bottom: 15px; }
     .products_outer .inner #color_box table {
-      font-size: 10px;
-      font-size: 1rem;
+      font-size: 14px;
+      font-size: 1.4rem;
       color: #887f69;
       width: 100%; }
       .products_outer .inner #color_box table td {
@@ -462,13 +464,13 @@ footer .container .footer_box {
         .products_outer .inner #pq_add table tr td {
           border-bottom: 0;
           padding: 15px 0;
-          font-size: 10px;
-          font-size: 1rem;
+          font-size: 14px;
+          font-size: 1.4rem;
           color: red;
           font-style: italic; }
           .products_outer .inner #pq_add table tr td #red {
-            font-size: 20px;
-            font-size: 2rem; }
+            font-size: 24px;
+            font-size: 2.4rem; }
           .products_outer .inner #pq_add table tr td #taxin {
             color: black; }
       .products_outer .inner #pq_add table .space {
@@ -497,24 +499,24 @@ footer .container .footer_box {
   .products_outer .inner #ex_outer {
     padding-top: 30px; }
     .products_outer .inner #ex_outer h3 {
-      font-size: 15px;
-      font-size: 1.5rem;
+      font-size: 19px;
+      font-size: 1.9rem;
       color: #887f69;
       font-weight: bold;
       padding-bottom: 18px;
       border-bottom: 1px solid black; }
     .products_outer .inner #ex_outer h4 {
-      font-size: 15px;
-      font-size: 1.5rem;
+      font-size: 19px;
+      font-size: 1.9rem;
       color: #887f69;
       font-weight: bold; }
     .products_outer .inner #ex_outer p {
-      font-size: 12px;
-      font-size: 1.2rem;
+      font-size: 16px;
+      font-size: 1.6rem;
       color: black; }
     .products_outer .inner #ex_outer table {
-      font-size: 10px;
-      font-size: 1rem;
+      font-size: 14px;
+      font-size: 1.4rem;
       color: #887f69;
       width: 100%; }
       .products_outer .inner #ex_outer table td {
